@@ -40,3 +40,20 @@ El conjunto de datos utilizado en este proyecto proviene de un CSV, estos conjun
 * Método de pago
 
 ## Estructura del Repositorio
+
+├── README.md
+├── notebooks/
+│   └── limpieza_datos_taxi_nyc.ipynb  # Notebook de Jupyter con el código de limpieza
+├── data/
+│   ├── raw/                      # Datos originales sin procesar (opcional)
+│   └── cleaned/                  # Datos limpios y procesados (opcional)
+└── requirements.txt              # Lista de dependencias de Python
+
+## Tecnologías Utilizadas
+
+* **Python:** Lenguaje de programación principal utilizado para la manipulación y el análisis de datos.
+* **Pandas:** Biblioteca de Python para el análisis y la manipulación de datos.
+* **NumPy:** Biblioteca de Python para computación numérica.
+* **Matplotlib:** Biblioteca de Python para la visualización de datos.
+* **Seaborn:** Biblioteca de Python para la visualización de datos estadísticos (basada en Matplotlib).
+* **Jupyter Notebook/Lab:** Entorno interactivo para escribir y ejecutar código.
